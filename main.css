@@ -147,6 +147,10 @@ form button:hover {
     cursor: pointer;
 }
 
+.venha-ate p{
+    margin-bottom: 0px;
+}
+
 footer {
     display: flex;
     background-color: #142a1c;
