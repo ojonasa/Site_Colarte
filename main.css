@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header {
+    background-color: #142a1c;
+    padding: 16px 0;
+    margin-bottom: 48px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header li {
+    display: inline
+
+}
+
+header li a {
+    text-decoration: none;
+    color: #EBE7E3;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 32px;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #EBE7E3;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #415b2e;
+}
+
+h3 {
+    color: #415b2e;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+section .container {
+    margin-bottom: 52px;
+    align-items: flex-start;
+}
+
+section h2,
+section h3,
+section p {
+    margin-bottom: 16px;
+}
+
+#main-image, 
+#secondary-image {
+    height: 480px;
+    border-radius: 14px;
+}
+
+#main-image {
+    margin-right: 32px;
+}
+
+#secondary-image {
+    margin-left: 32px;
+}
+
+.social-links li {
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+
+#contact .container {
+    display: block;
+}
+
+#contact .contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 260px;
+    padding: 8px;
+    margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #dadada;
+    border-style: double;
+}
+
+form textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline-color: #415b2e;
+}
+
+form button {
+    color: #EBE7E3;
+    background-color: #415b2e;
+    border: none;
+}
+
+form button:hover {
+    background-color: #507435;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background-color: #142a1c;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #EBE7E3;
+}
